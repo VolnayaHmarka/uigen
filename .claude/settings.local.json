@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Test-Path \"c:\\\\Users\\\\y.matyush\\\\Downloads\\\\uigen\\\\uigen\\\\CLAUDE.md\")", 
+      "mcp__playwright"
+    ]
+  }
+}
