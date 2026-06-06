@@ -41,7 +41,7 @@ export function ToolCallBadge({ toolName, args, state }: ToolCallBadgeProps) {
       {isDone ? (
         <div className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0" aria-hidden="true" />
       ) : (
-        <Loader2 className="w-3 h-3 animate-spin text-blue-600 flex-shrink-0" aria-hidden="true" />
+        <Loader2 className="w-3 h-3 animate-spin text-green-600 flex-shrink-0" aria-hidden="true" />
       )}
       <span className="text-neutral-700">{label}</span>
     </div>
